@@ -353,14 +353,15 @@ for (let elem of users) {
 
 console.log(emails, other);
 
-for (let e = 0; e <= users.length; e++) {
-    if (e.email.includes('org') ) {
-        emails.org.push(e)
-    }else if (e.email.includes('net')) {
-        emails.net.push(e)
-    }else if (e.email.includes('info')) {
-        emails.info.push(e)
-    }else {
-        other.push(e)
-    }
-}
+// for (let e = 0; e < users.length; e++) {
+//     if (e.email.includes('org') ) {
+//         emails.org.push(e)
+//     }else if (e.email.includes('net')) {
+//         emails.net.push(e)
+//     }else if (e.email.includes('info')) {
+//         emails.info.push(e)
+//     }else {
+//         other.push(e)
+//     }
+// }
+// console.log(emails, other);
